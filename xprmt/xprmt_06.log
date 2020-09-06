@@ -1,0 +1,819 @@
+====================start of model====================
+mlp, bow tokenizer, toxic_threshold = 0.15
+
+Start epoch 1 out of 4
+----------
+Train loss = 0.6891973357656341, Train accuracy = 0.5174863387978142, Train f1_pos = 0.6820309686712279, Train f1_neg = 0.0
+Validation loss = 0.6827086216459671, Validation accuracy = 0.5095081967213114, Validation f1_pos = 0.6750651607298002, Validation f1_neg = 0.0
+----------
+End epoch 1 out of 4
+
+Start epoch 2 out of 4
+----------
+Train loss = 0.6465386636468359, Train accuracy = 0.613224043715847, Train f1_pos = 0.7170686209193871, Train f1_neg = 0.3889496402877698
+Validation loss = 0.6146934578816096, Validation accuracy = 0.6963934426229508, Validation f1_pos = 0.7464403066812705, Validation f1_neg = 0.6217320261437909
+----------
+End epoch 2 out of 4
+
+Start epoch 3 out of 4
+----------
+Train loss = 0.560930697477503, Train accuracy = 0.8014571948998178, Train f1_pos = 0.8156292286874154, Train f1_neg = 0.7849250197316495
+Validation loss = 0.5682609428962072, Validation accuracy = 0.7629508196721312, Validation f1_pos = 0.7782888684452622, Validation f1_neg = 0.7453328636843959
+----------
+End epoch 3 out of 4
+
+Start epoch 4 out of 4
+----------
+Train loss = 0.5064099016306284, Train accuracy = 0.8479052823315119, Train f1_pos = 0.8507275912617541, Train f1_neg = 0.8449741933088263
+Validation loss = 0.5459827504431208, Validation accuracy = 0.7770491803278688, Validation f1_pos = 0.7828863346104725, Validation f1_neg = 0.77088948787062
+----------
+End epoch 4 out of 4
+
+====================end of model====================
+Test loss = 0.4696780699476856, Test accuracy = 0.8587800938389355, Test f1_pos = 0.9221374045801527, Test f1_neg = 0.24194880264244426
+# True negative in test set = 293
+# False positive in test set = 1108
+# False negative in test set = 728
+# True positive in test set = 10872
+
+
+====================start of model====================
+mlp, bow tokenizer, toxic_threshold = 0.3
+
+Start epoch 1 out of 4
+----------
+Train loss = 0.6950940284139905, Train accuracy = 0.4701639344262295, Train f1_pos = 0.5958428277663536, Train f1_neg = 0.23104578619012373
+Validation loss = 0.6844746954739094, Validation accuracy = 0.6226229508196721, Validation f1_pos = 0.5703620754012692, Validation f1_neg = 0.6635486699795381
+----------
+End epoch 1 out of 4
+
+Start epoch 2 out of 4
+----------
+Train loss = 0.6493952300720838, Train accuracy = 0.7463752276867031, Train f1_pos = 0.6558916567813365, Train f1_neg = 0.7991808007384331
+Validation loss = 0.6091562410195669, Validation accuracy = 0.7957377049180328, Validation f1_pos = 0.7084698175011699, Validation f1_neg = 0.8427958617209185
+----------
+End epoch 2 out of 4
+
+Start epoch 3 out of 4
+----------
+Train loss = 0.5641703177373726, Train accuracy = 0.8150091074681238, Train f1_pos = 0.7511760094080753, Train f1_neg = 0.852777455641888
+Validation loss = 0.544454171632727, Validation accuracy = 0.820983606557377, Validation f1_pos = 0.7666666666666667, Validation f1_neg = 0.8547872340425532
+----------
+End epoch 3 out of 4
+
+Start epoch 4 out of 4
+----------
+Train loss = 0.5051075925915947, Train accuracy = 0.8503460837887067, Train f1_pos = 0.8102715684463329, Train f1_neg = 0.8764436958614052
+Validation loss = 0.5097069321200252, Validation accuracy = 0.8321311475409836, Validation f1_pos = 0.7879038939519469, Validation f1_neg = 0.861096039066739
+----------
+End epoch 4 out of 4
+
+====================end of model====================
+Test loss = 0.5317216076927045, Test accuracy = 0.7930928390123837, Test f1_pos = 0.8806671990062993, Test f1_neg = 0.22254335260115607
+# True negative in test set = 385
+# False positive in test set = 1016
+# False negative in test set = 1674
+# True positive in test set = 9926
+
+
+====================start of model====================
+mlp, bow tokenizer, toxic_threshold = 0.45
+
+Start epoch 1 out of 4
+----------
+Train loss = 0.6608189490986315, Train accuracy = 0.6174863387978142, Train f1_pos = 0.0019011406844106464, Train f1_neg = 0.7634069400630915
+Validation loss = 0.6368957919379076, Validation accuracy = 0.6252459016393442, Validation f1_pos = 0.01038961038961039, Validation f1_neg = 0.7688574317492417
+----------
+End epoch 1 out of 4
+
+Start epoch 2 out of 4
+----------
+Train loss = 0.5974631996213139, Train accuracy = 0.6457194899817851, Train f1_pos = 0.14505494505494507, Train f1_neg = 0.7765651924181505
+Validation loss = 0.5584853111455838, Validation accuracy = 0.7019672131147541, Validation f1_pos = 0.3683113273106324, Validation f1_neg = 0.804977472645355
+----------
+End epoch 2 out of 4
+
+Start epoch 3 out of 4
+----------
+Train loss = 0.5143130503612242, Train accuracy = 0.7900182149362477, Train f1_pos = 0.6418095948297291, Train f1_neg = 0.8514739229024944
+Validation loss = 0.49764358159154654, Validation accuracy = 0.838688524590164, Validation f1_pos = 0.7492354740061162, Validation f1_neg = 0.8811019816336394
+----------
+End epoch 3 out of 4
+
+Start epoch 4 out of 4
+----------
+Train loss = 0.4557198713292609, Train accuracy = 0.8907103825136612, Train f1_pos = 0.8449772633319553, Train f1_neg = 0.9156070665016316
+Validation loss = 0.46527189016342163, Validation accuracy = 0.8672131147540983, Validation f1_pos = 0.8092322185586435, Validation f1_neg = 0.8981644455619814
+----------
+End epoch 4 out of 4
+
+====================end of model====================
+Test loss = 0.5550245658039168, Test accuracy = 0.7720944542727483, Test f1_pos = 0.8654343975657387, Test f1_neg = 0.2560883755962842
+# True negative in test set = 510
+# False positive in test set = 891
+# False negative in test set = 2072
+# True positive in test set = 9528
+
+
+====================start of model====================
+mlp, tfidf tokenizer, toxic_threshold = 0.15
+
+Start epoch 1 out of 4
+----------
+Train loss = 0.7187248205110466, Train accuracy = 0.4825136612021858, Train f1_pos = 0.0, Train f1_neg = 0.6509399189089569
+Validation loss = 0.7142041356613239, Validation accuracy = 0.4904918032786885, Validation f1_pos = 0.0, Validation f1_neg = 0.6581610206775187
+----------
+End epoch 1 out of 4
+
+Start epoch 2 out of 4
+----------
+Train loss = 0.7161726608420863, Train accuracy = 0.4825136612021858, Train f1_pos = 0.0, Train f1_neg = 0.6509399189089569
+Validation loss = 0.7128125311185917, Validation accuracy = 0.4904918032786885, Validation f1_pos = 0.0, Validation f1_neg = 0.6581610206775187
+----------
+End epoch 2 out of 4
+
+Start epoch 3 out of 4
+----------
+Train loss = 0.7147544457084372, Train accuracy = 0.4825136612021858, Train f1_pos = 0.0, Train f1_neg = 0.6509399189089569
+Validation loss = 0.7115463372319937, Validation accuracy = 0.4904918032786885, Validation f1_pos = 0.0, Validation f1_neg = 0.6581610206775187
+----------
+End epoch 3 out of 4
+
+Start epoch 4 out of 4
+----------
+Train loss = 0.7133806418705654, Train accuracy = 0.4825136612021858, Train f1_pos = 0.0, Train f1_neg = 0.6509399189089569
+Validation loss = 0.7102146614342928, Validation accuracy = 0.4904918032786885, Validation f1_pos = 0.0, Validation f1_neg = 0.6581610206775187
+----------
+End epoch 4 out of 4
+
+====================end of model====================
+Test loss = 0.8387907867935425, Test accuracy = 0.10776094146604108, Test f1_pos = 0.0, Test f1_neg = 0.19455631162338563
+# True negative in test set = 1401
+# False positive in test set = 0
+# False negative in test set = 11600
+# True positive in test set = 0
+
+
+====================start of model====================
+mlp, tfidf tokenizer, toxic_threshold = 0.3
+
+Start epoch 1 out of 4
+----------
+Train loss = 0.7100665210843919, Train accuracy = 0.4276502732240437, Train f1_pos = 0.5990966852943428, Train f1_neg = 0.0
+Validation loss = 0.7105211224406958, Validation accuracy = 0.4157377049180328, Validation f1_pos = 0.587308939323761, Validation f1_neg = 0.0
+----------
+End epoch 1 out of 4
+
+Start epoch 2 out of 4
+----------
+Train loss = 0.7077156272662547, Train accuracy = 0.4276502732240437, Train f1_pos = 0.5990966852943428, Train f1_neg = 0.0
+Validation loss = 0.7085361052304506, Validation accuracy = 0.4157377049180328, Validation f1_pos = 0.587308939323761, Validation f1_neg = 0.0
+----------
+End epoch 2 out of 4
+
+Start epoch 3 out of 4
+----------
+Train loss = 0.705878831567742, Train accuracy = 0.4276502732240437, Train f1_pos = 0.5990966852943428, Train f1_neg = 0.0
+Validation loss = 0.7063870436201493, Validation accuracy = 0.4157377049180328, Validation f1_pos = 0.587308939323761, Validation f1_neg = 0.0
+----------
+End epoch 3 out of 4
+
+Start epoch 4 out of 4
+----------
+Train loss = 0.7029566294524497, Train accuracy = 0.4276502732240437, Train f1_pos = 0.5990966852943428, Train f1_neg = 0.0
+Validation loss = 0.7025215451916059, Validation accuracy = 0.4157377049180328, Validation f1_pos = 0.587308939323761, Validation f1_neg = 0.0
+----------
+End epoch 4 out of 4
+
+====================end of model====================
+Test loss = 0.6369116530371532, Test accuracy = 0.8922390585339589, Test f1_pos = 0.9430510954839234, Test f1_neg = 0.0
+# True negative in test set = 0
+# False positive in test set = 1401
+# False negative in test set = 0
+# True positive in test set = 11600
+
+
+====================start of model====================
+mlp, tfidf tokenizer, toxic_threshold = 0.45
+
+Start epoch 1 out of 4
+----------
+Train loss = 0.6751794935245337, Train accuracy = 0.6171220400728598, Train f1_pos = 0.0, Train f1_neg = 0.7632349628294661
+Validation loss = 0.668474211047093, Validation accuracy = 0.6232786885245901, Validation f1_pos = 0.0, Validation f1_neg = 0.7679256715814987
+----------
+End epoch 1 out of 4
+
+Start epoch 2 out of 4
+----------
+Train loss = 0.6565601840302661, Train accuracy = 0.6171220400728598, Train f1_pos = 0.0, Train f1_neg = 0.7632349628294661
+Validation loss = 0.637719419474403, Validation accuracy = 0.6232786885245901, Validation f1_pos = 0.0, Validation f1_neg = 0.7679256715814987
+----------
+End epoch 2 out of 4
+
+Start epoch 3 out of 4
+----------
+Train loss = 0.6183133931843551, Train accuracy = 0.6171220400728598, Train f1_pos = 0.0, Train f1_neg = 0.7632349628294661
+Validation loss = 0.6013946235179901, Validation accuracy = 0.6232786885245901, Validation f1_pos = 0.0, Validation f1_neg = 0.7679256715814987
+----------
+End epoch 3 out of 4
+
+Start epoch 4 out of 4
+----------
+Train loss = 0.5789087167430869, Train accuracy = 0.6171220400728598, Train f1_pos = 0.0, Train f1_neg = 0.7632349628294661
+Validation loss = 0.5694987947742144, Validation accuracy = 0.6232786885245901, Validation f1_pos = 0.0, Validation f1_neg = 0.7679256715814987
+----------
+End epoch 4 out of 4
+
+====================end of model====================
+Test loss = 0.7811348281562768, Test accuracy = 0.10776094146604108, Test f1_pos = 0.0, Test f1_neg = 0.19455631162338563
+# True negative in test set = 1401
+# False positive in test set = 0
+# False negative in test set = 11600
+# True positive in test set = 0
+
+
+====================start of model====================
+mlp, bert tokenizer, toxic_threshold = 0.15
+
+Start epoch 1 out of 4
+----------
+Train loss = 0.7180576149400297, Train accuracy = 0.5112204007285974, Train f1_pos = 0.6176512496081616, Train f1_neg = 0.32268160936947854
+Validation loss = 0.6950540201117595, Validation accuracy = 0.5078688524590164, Validation f1_pos = 0.6674052736538888, Validation f1_neg = 0.05419029615626969
+----------
+End epoch 1 out of 4
+
+Start epoch 2 out of 4
+----------
+Train loss = 0.6887023646931548, Train accuracy = 0.5202550091074681, Train f1_pos = 0.6765088801002236, Train f1_neg = 0.07201747586498485
+Validation loss = 0.6949545542399088, Validation accuracy = 0.5062295081967213, Validation f1_pos = 0.6638392857142857, Validation f1_neg = 0.07037037037037037
+----------
+End epoch 2 out of 4
+
+Start epoch 3 out of 4
+----------
+Train loss = 0.6853150118897845, Train accuracy = 0.524808743169399, Train f1_pos = 0.6781166716020136, Train f1_neg = 0.09265442404006678
+Validation loss = 0.6950386743992567, Validation accuracy = 0.5045901639344262, Validation f1_pos = 0.6618930409487581, Validation f1_neg = 0.07357449417535254
+----------
+End epoch 3 out of 4
+
+Start epoch 4 out of 4
+----------
+Train loss = 0.6815836439321646, Train accuracy = 0.5287067395264117, Train f1_pos = 0.6791179899298063, Train f1_neg = 0.11287115134060208
+Validation loss = 0.6943919658660889, Validation accuracy = 0.5052459016393442, Validation f1_pos = 0.6606701146840567, Validation f1_neg = 0.08711433756805807
+----------
+End epoch 4 out of 4
+
+====================end of model====================
+Test loss = 0.6334436642010616, Test accuracy = 0.8595492654411199, Test f1_pos = 0.9241190159574468, Test f1_neg = 0.05779153766769866
+# True negative in test set = 56
+# False positive in test set = 1345
+# False negative in test set = 481
+# True positive in test set = 11119
+
+
+====================start of model====================
+mlp, bert tokenizer, toxic_threshold = 0.3
+
+Start epoch 1 out of 4
+----------
+Train loss = 0.7032307937984422, Train accuracy = 0.5645901639344262, Train f1_pos = 0.31024930747922436, Train f1_neg = 0.6818907697221335
+Validation loss = 0.6745571897675594, Validation accuracy = 0.6045901639344262, Validation f1_pos = 0.16597510373443983, Validation f1_neg = 0.740868070477009
+----------
+End epoch 1 out of 4
+
+Start epoch 2 out of 4
+----------
+Train loss = 0.6711169309688337, Train accuracy = 0.6035336976320583, Train f1_pos = 0.20265220895303684, Train f1_neg = 0.736176092700783
+Validation loss = 0.671750153725346, Validation accuracy = 0.6085245901639345, Validation f1_pos = 0.1855388813096862, Validation f1_neg = 0.7423392317652137
+----------
+End epoch 2 out of 4
+
+Start epoch 3 out of 4
+----------
+Train loss = 0.6674750791146205, Train accuracy = 0.6103096539162113, Train f1_pos = 0.22265823704672624, Train f1_neg = 0.739979095262403
+Validation loss = 0.6703216085831324, Validation accuracy = 0.6088524590163934, Validation f1_pos = 0.18566552901023892, Validation f1_neg = 0.7426105717367854
+----------
+End epoch 3 out of 4
+
+Start epoch 4 out of 4
+----------
+Train loss = 0.6644055373740919, Train accuracy = 0.6148998178506375, Train f1_pos = 0.23955111143083233, Train f1_neg = 0.742164443035196
+Validation loss = 0.6698706857860088, Validation accuracy = 0.6091803278688525, Validation f1_pos = 0.19241192411924118, Validation f1_neg = 0.7422145328719724
+----------
+End epoch 4 out of 4
+
+====================end of model====================
+Test loss = 0.7380957823127727, Test accuracy = 0.22436735635720328, Test f1_pos = 0.2446441947565543, Test f1_neg = 0.20297186215618085
+# True negative in test set = 1284
+# False positive in test set = 117
+# False negative in test set = 9967
+# True positive in test set = 1633
+
+
+====================start of model====================
+mlp, bert tokenizer, toxic_threshold = 0.45
+
+Start epoch 1 out of 4
+----------
+Train loss = 0.6884662549256723, Train accuracy = 0.6198907103825136, Train f1_pos = 0.19886363636363635, Train f1_neg = 0.750835800936097
+Validation loss = 0.6649998668581247, Validation accuracy = 0.6478688524590164, Validation f1_pos = 0.1408, Validation f1_neg = 0.7785567010309279
+----------
+End epoch 1 out of 4
+
+Start epoch 2 out of 4
+----------
+Train loss = 0.6653998019325705, Train accuracy = 0.6452459016393443, Train f1_pos = 0.1775337837837838, Train f1_neg = 0.7738504412447748
+Validation loss = 0.6585881101588408, Validation accuracy = 0.6498360655737705, Validation f1_pos = 0.1669266770670827, Validation f1_neg = 0.7783312577833126
+----------
+End epoch 2 out of 4
+
+Start epoch 3 out of 4
+----------
+Train loss = 0.6606501411030065, Train accuracy = 0.6492531876138433, Train f1_pos = 0.2015259578702936, Train f1_neg = 0.7752672610989216
+Validation loss = 0.6547591388225555, Validation accuracy = 0.6537704918032787, Validation f1_pos = 0.2, Validation f1_neg = 0.7790794979079498
+----------
+End epoch 3 out of 4
+
+Start epoch 4 out of 4
+----------
+Train loss = 0.6575034690764678, Train accuracy = 0.652495446265938, Train f1_pos = 0.2175375276843573, Train f1_neg = 0.7766512912969163
+Validation loss = 0.6547533975293239, Validation accuracy = 0.6531147540983606, Validation f1_pos = 0.20689655172413793, Validation f1_neg = 0.7780109106168694
+----------
+End epoch 4 out of 4
+
+====================end of model====================
+Test loss = 1.0859942991259057, Test accuracy = 0.21359895392662104, Test f1_pos = 0.22227293473299864, Test f1_neg = 0.20472930927193528
+# True negative in test set = 1316
+# False positive in test set = 85
+# False negative in test set = 10139
+# True positive in test set = 1461
+
+
+====================start of model====================
+bert, bert tokenizer, toxic_threshold = 0.15
+
+Start epoch 1 out of 4
+----------
+Train loss = 0.41873173846370415, Train accuracy = 0.8106010928961749, Train f1_pos = 0.811691839617516, Train f1_neg = 0.809497636583489
+Validation loss = 0.39911436770732206, Validation accuracy = 0.8301639344262295, Validation f1_pos = 0.8298291721419185, Validation f1_neg = 0.8304973821989529
+----------
+End epoch 1 out of 4
+
+Start epoch 2 out of 4
+----------
+Train loss = 0.3146986847000939, Train accuracy = 0.8724954462659381, Train f1_pos = 0.874254508874039, Train f1_neg = 0.8706864701101013
+Validation loss = 0.39911436770732206, Validation accuracy = 0.8301639344262295, Validation f1_pos = 0.8298291721419185, Validation f1_neg = 0.8304973821989529
+----------
+End epoch 2 out of 4
+
+Start epoch 3 out of 4
+----------
+Train loss = 0.31563365937911825, Train accuracy = 0.8732604735883425, Train f1_pos = 0.8748426089146311, Train f1_neg = 0.8716378260709147
+Validation loss = 0.39911436770732206, Validation accuracy = 0.8301639344262295, Validation f1_pos = 0.8298291721419185, Validation f1_neg = 0.8304973821989529
+----------
+End epoch 3 out of 4
+
+Start epoch 4 out of 4
+----------
+Train loss = 0.3154266931828641, Train accuracy = 0.8734426229508196, Train f1_pos = 0.8751078515962036, Train f1_neg = 0.8717323881258308
+Validation loss = 0.39911436770732206, Validation accuracy = 0.8301639344262295, Validation f1_pos = 0.8298291721419185, Validation f1_neg = 0.8304973821989529
+----------
+End epoch 4 out of 4
+
+====================end of model====================
+Test loss = 0.33078773483274737, Test accuracy = 0.8693946619490809, Test f1_pos = 0.9285533956071699, Test f1_neg = 0.240608228980322
+# True negative in test set = 269
+# False positive in test set = 1132
+# False negative in test set = 566
+# True positive in test set = 11034
+
+
+====================start of model====================
+bert, bert tokenizer, toxic_threshold = 0.3
+
+Start epoch 1 out of 4
+----------
+Train loss = 0.3411727969410953, Train accuracy = 0.8549362477231329, Train f1_pos = 0.8253202316195823, Train f1_neg = 0.8759656117617742
+Validation loss = 0.2679817034707715, Validation accuracy = 0.8911475409836066, Validation f1_pos = 0.8676236044657097, Validation f1_neg = 0.9075723830734966
+----------
+End epoch 1 out of 4
+
+Start epoch 2 out of 4
+----------
+Train loss = 0.2258623908371567, Train accuracy = 0.913551912568306, Train f1_pos = 0.897321621738566, Train f1_neg = 0.9253515366950832
+Validation loss = 0.2679817034707715, Validation accuracy = 0.8911475409836066, Validation f1_pos = 0.8676236044657097, Validation f1_neg = 0.9075723830734966
+----------
+End epoch 2 out of 4
+
+Start epoch 3 out of 4
+----------
+Train loss = 0.22629258967501856, Train accuracy = 0.9127140255009107, Train f1_pos = 0.8963847085279364, Train f1_neg = 0.9245971802618328
+Validation loss = 0.2679817034707715, Validation accuracy = 0.8911475409836066, Validation f1_pos = 0.8676236044657097, Validation f1_neg = 0.9075723830734966
+----------
+End epoch 3 out of 4
+
+Start epoch 4 out of 4
+----------
+Train loss = 0.2264064418321306, Train accuracy = 0.9145355191256831, Train f1_pos = 0.8985030717314182, Train f1_neg = 0.9261939218523878
+Validation loss = 0.2679817034707715, Validation accuracy = 0.8911475409836066, Validation f1_pos = 0.8676236044657097, Validation f1_neg = 0.9075723830734966
+----------
+End epoch 4 out of 4
+
+====================end of model====================
+Test loss = 0.38733789384941725, Test accuracy = 0.8540112299053919, Test f1_pos = 0.91944656650539, Test f1_neg = 0.22213114754098362
+# True negative in test set = 271
+# False positive in test set = 1130
+# False negative in test set = 768
+# True positive in test set = 10832
+
+
+====================start of model====================
+bert, bert tokenizer, toxic_threshold = 0.45
+
+Start epoch 1 out of 4
+----------
+Train loss = 0.2943805925209414, Train accuracy = 0.8829143897996357, Train f1_pos = 0.8430817302997754, Train f1_neg = 0.9066186297867395
+Validation loss = 0.23815702076535672, Validation accuracy = 0.9022950819672131, Validation f1_pos = 0.8682581786030061, Validation f1_neg = 0.9223553934340802
+----------
+End epoch 1 out of 4
+
+Start epoch 2 out of 4
+----------
+Train loss = 0.18147983021669453, Train accuracy = 0.9345355191256831, Train f1_pos = 0.9138336130424358, Train f1_neg = 0.9472169187839624
+Validation loss = 0.23815702076535672, Validation accuracy = 0.9022950819672131, Validation f1_pos = 0.8682581786030061, Validation f1_neg = 0.9223553934340802
+----------
+End epoch 2 out of 4
+
+Start epoch 3 out of 4
+----------
+Train loss = 0.18197341347742818, Train accuracy = 0.9337704918032786, Train f1_pos = 0.912864263803681, Train f1_neg = 0.9465859677988012
+Validation loss = 0.23815702076535672, Validation accuracy = 0.9022950819672131, Validation f1_pos = 0.8682581786030061, Validation f1_neg = 0.9223553934340802
+----------
+End epoch 3 out of 4
+
+Start epoch 4 out of 4
+----------
+Train loss = 0.18100676753738404, Train accuracy = 0.9354098360655738, Train f1_pos = 0.9149599501175116, Train f1_neg = 0.9479310446095562
+Validation loss = 0.23815702076535672, Validation accuracy = 0.9022950819672131, Validation f1_pos = 0.8682581786030061, Validation f1_neg = 0.9223553934340802
+----------
+End epoch 4 out of 4
+
+====================end of model====================
+Test loss = 0.392407621885135, Test accuracy = 0.8521652180601492, Test f1_pos = 0.9181570430931698, Test f1_neg = 0.23669579030976967
+# True negative in test set = 298
+# False positive in test set = 1103
+# False negative in test set = 819
+# True positive in test set = 10781
+
+
+====================start of model====================
+logistic_regression, bow tokenizer, toxic_threshold = 0.15
+
+Start epoch 1 out of 4
+----------
+Train loss = 0.6823871625470115, Train accuracy = 0.6400728597449908, Train f1_pos = 0.7219877314423997, Train f1_neg = 0.48972213614296045
+Validation loss = 0.6760526616126299, Validation accuracy = 0.6577049180327869, Validation f1_pos = 0.7276995305164319, Validation f1_neg = 0.5392762577228597
+----------
+End epoch 1 out of 4
+
+Start epoch 2 out of 4
+----------
+Train loss = 0.6710608728698917, Train accuracy = 0.7237522768670309, Train f1_pos = 0.7657326454323581, Train f1_neg = 0.6634414806266921
+Validation loss = 0.6689133072892824, Validation accuracy = 0.6983606557377049, Validation f1_pos = 0.7402597402597403, Validation f1_neg = 0.6403440187646599
+----------
+End epoch 2 out of 4
+
+Start epoch 3 out of 4
+----------
+Train loss = 0.6637121065930053, Train accuracy = 0.7456466302367941, Train f1_pos = 0.776074406670943, Train f1_neg = 0.7056492411467117
+Validation loss = 0.6633109338581562, Validation accuracy = 0.7072131147540983, Validation f1_pos = 0.7412344248044045, Validation f1_neg = 0.6628916572291431
+----------
+End epoch 3 out of 4
+
+Start epoch 4 out of 4
+----------
+Train loss = 0.6575577218076843, Train accuracy = 0.7532969034608379, Train f1_pos = 0.7791114880292257, Train f1_neg = 0.7206501113769491
+Validation loss = 0.6584953380127748, Validation accuracy = 0.7140983606557377, Validation f1_pos = 0.7435294117647059, Validation f1_neg = 0.677037037037037
+----------
+End epoch 4 out of 4
+
+====================end of model====================
+Test loss = 0.635179459755778, Test accuracy = 0.8558572417506346, Test f1_pos = 0.9216096377478458, Test f1_neg = 0.10591603053435114
+# True negative in test set = 111
+# False positive in test set = 1290
+# False negative in test set = 584
+# True positive in test set = 11016
+
+
+====================start of model====================
+logistic_regression, bow tokenizer, toxic_threshold = 0.3
+
+Start epoch 1 out of 4
+----------
+Train loss = 0.6739753782054483, Train accuracy = 0.6225136612021858, Train f1_pos = 0.21737160120845922, Train f1_neg = 0.7512722035525684
+Validation loss = 0.6630900905778011, Validation accuracy = 0.6386885245901639, Validation f1_pos = 0.2336578581363004, Validation f1_neg = 0.7636207636207636
+----------
+End epoch 1 out of 4
+
+Start epoch 2 out of 4
+----------
+Train loss = 0.659184367715062, Train accuracy = 0.6363570127504554, Train f1_pos = 0.26462354501252394, Train f1_neg = 0.7584571456226105
+Validation loss = 0.6547964997589588, Validation accuracy = 0.6504918032786885, Validation f1_pos = 0.2787550744248985, Validation f1_neg = 0.7693639117265253
+----------
+End epoch 2 out of 4
+
+Start epoch 3 out of 4
+----------
+Train loss = 0.6519641258638778, Train accuracy = 0.6485245901639344, Train f1_pos = 0.3080895008605852, Train f1_neg = 0.7644301201289189
+Validation loss = 0.6489181686192751, Validation accuracy = 0.6626229508196722, Validation f1_pos = 0.3225806451612903, Validation f1_neg = 0.7753765553372626
+----------
+End epoch 3 out of 4
+
+Start epoch 4 out of 4
+----------
+Train loss = 0.6459946192644693, Train accuracy = 0.6657923497267759, Train f1_pos = 0.36652396077889793, Train f1_neg = 0.7730219209263199
+Validation loss = 0.6435632463544607, Validation accuracy = 0.6767213114754098, Validation f1_pos = 0.37831021437578816, Validation f1_neg = 0.7815684536996013
+----------
+End epoch 4 out of 4
+
+====================end of model====================
+Test loss = 0.7460228517395272, Test accuracy = 0.3553572802092147, Test f1_pos = 0.45340116089480204, Test f1_neg = 0.21445308838691537
+# True negative in test set = 1144
+# False positive in test set = 257
+# False negative in test set = 8124
+# True positive in test set = 3476
+
+
+====================start of model====================
+logistic_regression, bow tokenizer, toxic_threshold = 0.45
+
+Start epoch 1 out of 4
+----------
+Train loss = 0.6586727733378643, Train accuracy = 0.6621857923497267, Train f1_pos = 0.22962532192406745, Train f1_neg = 0.7836595665259082
+Validation loss = 0.6416047240296999, Validation accuracy = 0.6718032786885246, Validation f1_pos = 0.2294072363356428, Validation f1_neg = 0.7915017704644866
+----------
+End epoch 1 out of 4
+
+Start epoch 2 out of 4
+----------
+Train loss = 0.638732881187559, Train accuracy = 0.6688888888888889, Train f1_pos = 0.2397323295692179, Train f1_neg = 0.7883572010711375
+Validation loss = 0.6322684939950705, Validation accuracy = 0.6767213114754098, Validation f1_pos = 0.2496194824961948, Validation f1_neg = 0.7939824488090264
+----------
+End epoch 2 out of 4
+
+Start epoch 3 out of 4
+----------
+Train loss = 0.6311166823466063, Train accuracy = 0.6743169398907104, Train f1_pos = 0.2621327170683394, Train f1_neg = 0.7910433807030666
+Validation loss = 0.6267869155853987, Validation accuracy = 0.6826229508196722, Validation f1_pos = 0.27436281859070466, Validation f1_neg = 0.7968946705832983
+----------
+End epoch 3 out of 4
+
+Start epoch 4 out of 4
+----------
+Train loss = 0.6258961381890001, Train accuracy = 0.68, Train f1_pos = 0.2850398827934234, Train f1_neg = 0.7938705589712302
+Validation loss = 0.622666115562121, Validation accuracy = 0.6859016393442623, Validation f1_pos = 0.2893175074183976, Validation f1_neg = 0.7984006734006734
+----------
+End epoch 4 out of 4
+
+====================end of model====================
+Test loss = 0.81596372476081, Test accuracy = 0.269286977924775, Test f1_pos = 0.31615318168730205, Test f1_neg = 0.21552436003303055
+# True negative in test set = 1305
+# False positive in test set = 96
+# False negative in test set = 9404
+# True positive in test set = 2196
+
+
+====================start of model====================
+logistic_regression, tfidf tokenizer, toxic_threshold = 0.15
+
+Start epoch 1 out of 4
+----------
+Train loss = 0.6916514722617356, Train accuracy = 0.6915482695810564, Train f1_pos = 0.6744588411703641, Train f1_neg = 0.7069329548994496
+Validation loss = 0.6906716308246056, Validation accuracy = 0.7154098360655737, Validation f1_pos = 0.7209003215434083, Validation f1_neg = 0.7096989966555184
+----------
+End epoch 1 out of 4
+
+Start epoch 2 out of 4
+----------
+Train loss = 0.6896157746131604, Train accuracy = 0.7397085610200365, Train f1_pos = 0.7499562554680665, Train f1_neg = 0.7285849952516619
+Validation loss = 0.6892898548394442, Validation accuracy = 0.7157377049180328, Validation f1_pos = 0.7288082577416328, Validation f1_neg = 0.7013434378229418
+----------
+End epoch 2 out of 4
+
+Start epoch 3 out of 4
+----------
+Train loss = 0.6880733738273451, Train accuracy = 0.7422950819672132, Train f1_pos = 0.7570908591442895, Train f1_neg = 0.7255799518969664
+Validation loss = 0.6880572233349085, Validation accuracy = 0.7134426229508197, Validation f1_pos = 0.7290762554246745, Validation f1_neg = 0.6958942240779401
+----------
+End epoch 3 out of 4
+
+Start epoch 4 out of 4
+----------
+Train loss = 0.6866465312339765, Train accuracy = 0.7441165755919854, Train f1_pos = 0.7607140423792328, Train f1_neg = 0.7250450168323808
+Validation loss = 0.6868815726290146, Validation accuracy = 0.7124590163934427, Validation f1_pos = 0.7300707910126193, Validation f1_neg = 0.6923886355664679
+----------
+End epoch 4 out of 4
+
+====================end of model====================
+Test loss = 0.6820394345524856, Test accuracy = 0.8306284131989847, Test f1_pos = 0.9059697668460159, Test f1_neg = 0.14783281733746131
+# True negative in test set = 191
+# False positive in test set = 1210
+# False negative in test set = 992
+# True positive in test set = 10608
+
+
+====================start of model====================
+logistic_regression, tfidf tokenizer, toxic_threshold = 0.3
+
+Start epoch 1 out of 4
+----------
+Train loss = 0.6885569125483364, Train accuracy = 0.590455373406193, Train f1_pos = 0.11758241758241758, Train f1_neg = 0.733349146110057
+Validation loss = 0.685205859442552, Validation accuracy = 0.598688524590164, Validation f1_pos = 0.06707317073170732, Validation f1_neg = 0.7443609022556391
+----------
+End epoch 1 out of 4
+
+Start epoch 2 out of 4
+----------
+Train loss = 0.6835305128758882, Train accuracy = 0.5914025500910747, Train f1_pos = 0.08530419181210243, Train f1_neg = 0.7369482621136075
+Validation loss = 0.6813049850364526, Validation accuracy = 0.599672131147541, Validation f1_pos = 0.0714828897338403, Validation f1_neg = 0.7448275862068966
+----------
+End epoch 2 out of 4
+
+Start epoch 3 out of 4
+----------
+Train loss = 0.6800479048337692, Train accuracy = 0.5923861566484517, Train f1_pos = 0.08951094474733501, Train f1_neg = 0.7374152214216986
+Validation loss = 0.678122004494071, Validation accuracy = 0.600327868852459, Validation f1_pos = 0.07441154138192863, Validation f1_neg = 0.7451390340790299
+----------
+End epoch 3 out of 4
+
+Start epoch 4 out of 4
+----------
+Train loss = 0.6770642977077644, Train accuracy = 0.5934790528233151, Train f1_pos = 0.09416348729604676, Train f1_neg = 0.7379347596345788
+Validation loss = 0.6753177717328072, Validation accuracy = 0.600655737704918, Validation f1_pos = 0.07587253414264036, Validation f1_neg = 0.7452948557089084
+----------
+End epoch 4 out of 4
+
+====================end of model====================
+Test loss = 0.724508526430669, Test accuracy = 0.16375663410506885, Test f1_pos = 0.11810512654120701, Test f1_neg = 0.20491443615620886
+# True negative in test set = 1401
+# False positive in test set = 0
+# False negative in test set = 10872
+# True positive in test set = 728
+
+
+====================start of model====================
+logistic_regression, tfidf tokenizer, toxic_threshold = 0.45
+
+Start epoch 1 out of 4
+----------
+Train loss = 0.6853982763829487, Train accuracy = 0.6255373406193079, Train f1_pos = 0.046917014371812706, Train f1_neg = 0.7669953530545166
+Validation loss = 0.6803410394738117, Validation accuracy = 0.6314754098360655, Validation f1_pos = 0.04258943781942078, Validation f1_neg = 0.7718229801055623
+----------
+End epoch 1 out of 4
+
+Start epoch 2 out of 4
+----------
+Train loss = 0.6775480051001747, Train accuracy = 0.6283424408014572, Train f1_pos = 0.05694213348123498, Train f1_neg = 0.7685676693434962
+Validation loss = 0.674218208839496, Validation accuracy = 0.6318032786885246, Validation f1_pos = 0.04425531914893617, Validation f1_neg = 0.771979695431472
+----------
+End epoch 2 out of 4
+
+Start epoch 3 out of 4
+----------
+Train loss = 0.6721172209108348, Train accuracy = 0.6296174863387978, Train f1_pos = 0.06320832949414908, Train f1_neg = 0.7691783776420642
+Validation loss = 0.6692518802980582, Validation accuracy = 0.6324590163934426, Validation f1_pos = 0.0475785896346644, Validation f1_neg = 0.7722933170830795
+----------
+End epoch 3 out of 4
+
+Start epoch 4 out of 4
+----------
+Train loss = 0.667512761893528, Train accuracy = 0.6303460837887067, Train f1_pos = 0.06677090039547504, Train f1_neg = 0.7695277897653713
+Validation loss = 0.6649142298847437, Validation accuracy = 0.6334426229508197, Validation f1_pos = 0.05254237288135593, Validation f1_neg = 0.7727642276422764
+----------
+End epoch 4 out of 4
+
+====================end of model====================
+Test loss = 0.7394194463839988, Test accuracy = 0.13868163987385584, Test f1_pos = 0.06698883519413432, Test f1_neg = 0.20014285714285715
+# True negative in test set = 1401
+# False positive in test set = 0
+# False negative in test set = 11198
+# True positive in test set = 402
+
+
+====================start of model====================
+logistic_regression, bert tokenizer, toxic_threshold = 0.15
+
+Start epoch 1 out of 4
+----------
+Train loss = 0.8126417677719276, Train accuracy = 0.5004007285974499, Train f1_pos = 0.3123056864908234, Train f1_neg = 0.6077006693746781
+Validation loss = 0.8019669130444527, Validation accuracy = 0.5127868852459017, Validation f1_pos = 0.34995625546806647, Validation f1_neg = 0.6103828002097536
+----------
+End epoch 1 out of 4
+
+Start epoch 2 out of 4
+----------
+Train loss = 0.8108552324744094, Train accuracy = 0.5025136612021858, Train f1_pos = 0.3384361980428253, Train f1_neg = 0.6013777803724677
+Validation loss = 0.8047742632528146, Validation accuracy = 0.5098360655737705, Validation f1_pos = 0.32383536861148804, Validation f1_neg = 0.6155824119310876
+----------
+End epoch 2 out of 4
+
+Start epoch 3 out of 4
+----------
+Train loss = 0.8093854598787836, Train accuracy = 0.5039344262295082, Train f1_pos = 0.3144540099682827, Train f1_neg = 0.611353711790393
+Validation loss = 0.8052439751724402, Validation accuracy = 0.5095081967213114, Validation f1_pos = 0.33094812164579607, Validation f1_neg = 0.6128364389233955
+----------
+End epoch 3 out of 4
+
+Start epoch 4 out of 4
+----------
+Train loss = 0.8092047583945703, Train accuracy = 0.50408014571949, Train f1_pos = 0.3253209099469693, Train f1_neg = 0.6079543818218472
+Validation loss = 0.8069422723104557, Validation accuracy = 0.5078688524590164, Validation f1_pos = 0.3259991019308487, Validation f1_neg = 0.6124451329718564
+----------
+End epoch 4 out of 4
+
+====================end of model====================
+Test loss = 1.014773710500403, Test accuracy = 0.29805399584647335, Test f1_pos = 0.37612797374897455, Test f1_neg = 0.19764374890100228
+# True negative in test set = 1124
+# False positive in test set = 277
+# False negative in test set = 8849
+# True positive in test set = 2751
+
+
+====================start of model====================
+logistic_regression, bert tokenizer, toxic_threshold = 0.3
+
+Start epoch 1 out of 4
+----------
+Train loss = 0.8623431274940917, Train accuracy = 0.450856102003643, Train f1_pos = 0.5658410138248848, Train f1_neg = 0.25302279484638257
+Validation loss = 0.8650754957149426, Validation accuracy = 0.4481967213114754, Validation f1_pos = 0.5527504650544778, Validation f1_neg = 0.2798459563543004
+----------
+End epoch 1 out of 4
+
+Start epoch 2 out of 4
+----------
+Train loss = 0.8527378585788753, Train accuracy = 0.46051001821493626, Train f1_pos = 0.555138333984199, Train f1_neg = 0.3147471195224654
+Validation loss = 0.8538461911181608, Validation accuracy = 0.46, Validation f1_pos = 0.5319693094629157, Validation f1_neg = 0.3618752421542038
+----------
+End epoch 2 out of 4
+
+Start epoch 3 out of 4
+----------
+Train loss = 0.840611299226334, Train accuracy = 0.47264116575591986, Train f1_pos = 0.5392156862745098, Train f1_neg = 0.38358030999829673
+Validation loss = 0.8457478030274311, Validation accuracy = 0.4681967213114754, Validation f1_pos = 0.5209686946249261, Validation f1_neg = 0.4023581429624171
+----------
+End epoch 3 out of 4
+
+Start epoch 4 out of 4
+----------
+Train loss = 0.8356044617566195, Train accuracy = 0.47774134790528233, Train f1_pos = 0.5298130534601508, Train f1_neg = 0.41269971323228183
+Validation loss = 0.8433102586617073, Validation accuracy = 0.4704918032786885, Validation f1_pos = 0.5223306713989944, Validation f1_neg = 0.40603162927546893
+----------
+End epoch 4 out of 4
+
+====================end of model====================
+Test loss = 0.6545603071003054, Test accuracy = 0.6594877317129452, Test f1_pos = 0.7859387843914705, Test f1_neg = 0.16801353129111068
+# True negative in test set = 447
+# False positive in test set = 954
+# False negative in test set = 3473
+# True positive in test set = 8127
+
+
+====================start of model====================
+logistic_regression, bert tokenizer, toxic_threshold = 0.45
+
+Start epoch 1 out of 4
+----------
+Train loss = 0.7965731081706938, Train accuracy = 0.5164298724954463, Train f1_pos = 0.3779173305839348, Train f1_neg = 0.6044931768071032
+Validation loss = 0.7937750481069088, Validation accuracy = 0.518360655737705, Validation f1_pos = 0.33499320959710277, Validation f1_neg = 0.622462092007196
+----------
+End epoch 1 out of 4
+
+Start epoch 2 out of 4
+----------
+Train loss = 0.7842499889554955, Train accuracy = 0.5287067395264117, Train f1_pos = 0.3660508648992993, Train f1_neg = 0.6249383932971907
+Validation loss = 0.7825577712307373, Validation accuracy = 0.5304918032786885, Validation f1_pos = 0.33084112149532713, Validation f1_neg = 0.6383838383838384
+----------
+End epoch 2 out of 4
+
+Start epoch 3 out of 4
+----------
+Train loss = 0.7727269982888704, Train accuracy = 0.5402914389799636, Train f1_pos = 0.34782159284717556, Train f1_neg = 0.6450451464093837
+Validation loss = 0.7799265030771494, Validation accuracy = 0.5327868852459017, Validation f1_pos = 0.3300423131170663, Validation f1_neg = 0.6413289705512207
+----------
+End epoch 3 out of 4
+
+Start epoch 4 out of 4
+----------
+Train loss = 0.7707146556574703, Train accuracy = 0.5422586520947177, Train f1_pos = 0.3363439497174246, Train f1_neg = 0.6506519865432202
+Validation loss = 0.7718008911858002, Validation accuracy = 0.5409836065573771, Validation f1_pos = 0.3143976493633692, Validation f1_neg = 0.6550024642681124
+----------
+End epoch 4 out of 4
+
+====================end of model====================
+Test loss = 0.9897438428325793, Test accuracy = 0.32212906699484656, Test f1_pos = 0.41709107745221247, Test f1_neg = 0.1902049067352752
+# True negative in test set = 1035
+# False positive in test set = 366
+# False negative in test set = 8447
+# True positive in test set = 3153
+
+
